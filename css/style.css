@@ -1,0 +1,154 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
+
+body {
+	color: #000;
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: cover;
+	background-color: #033048;
+}
+.nav-container {
+	display: inline-block;
+	text-align: right;
+	color: #f9e42e;
+	padding-left: 350px;
+	padding-right: 30px;
+}
+
+article {
+	width: 700px;
+	padding-left: 100px;
+	display: inline-block;
+}
+
+h1 {
+	display: inline-block;
+	padding: 10px 100px;
+	color: white;
+}
+
+h2 {
+	font-size: 37px;
+	font-weight: semibold;
+}
+
+h3 {
+	font-size: 32px;
+	font-weight: extrabold;
+}
+
+p {
+	font-size: 24px;
+	font-weight: light;
+}
+
+a {
+	font-weight: semibold;
+	font-size: 24px;
+	margin-left: 40px;
+}
+
+.blog-link a {
+	color: #606161;
+	text-decoration: none;
+}
+
+.blog-link {
+	text-align: right;
+}
+
+#sidebar-container {
+	float: right;
+	margin-right: 100px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+li {
+	font-size: 24px;
+	font-style: light;
+	list-style: none;
+}
+
+.ad-unit {
+	margin-top: 35px;
+}
+
+#blog-container {
+	display: inline-block;
+}
+
+.sidebar-content p {
+	margin-bottom: 0px;
+}
+
+.sidebar-link a {
+	margin-left: 0px;
+	color: #606161;
+	text-decoration: none;
+}
+
+hr {
+	margin-top: 30px;
+}
+
+.blue {
+  background-color: #043049;
+  padding: 5px 30px;
+  font-size: 16px;
+  margin: 10px auto;
+  color: white;
+  border-radius: 10px;
+  border-color: #043049;
+}
+
+.yellowbg {
+  background-color: #f9e42e;
+  text-align: center;
+  padding: 30px;
+  margin-top: 100px;
+
+}
+
+.socials {
+  background-color: #121211!important;
+  text-align: center;
+  color: #f9e42e;
+  padding: 10px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
