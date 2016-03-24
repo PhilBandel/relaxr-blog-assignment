@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Blog Landing Page
+Client: Relaxr
+Author: Phillip Bandel
+Developer @GA in LA
 */
 
 /******************************************
@@ -103,9 +103,14 @@ li {
 
 .sidebar-content p {
 	margin-bottom: 0px;
+	width: 250px;
 }
 
-.sidebar-link a {
+.hide {
+	display: none;
+}
+
+a.sidebar-link {
 	margin-left: 0px;
 	color: #606161;
 	text-decoration: none;
